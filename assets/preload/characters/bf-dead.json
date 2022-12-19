@@ -1,46 +1,62 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				37,
-				11
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				27,
+				31
+			],
 			"anim": "firstDeath",
-			"indices": [],
-			"name": "BF dies"
+			"fps": 24,
+			"name": "beef DIES",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				38
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "beef REMAINS DEAD",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				213,
+				172
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "beef LIVES",
+			"indices": []
 		},
 		{
 			"offsets": [
-				37,
-				5
+				210,
+				170
 			],
 			"loop": true,
 			"fps": 24,
-			"anim": "deathLoop",
-			"indices": [],
-			"name": "BF Dead Loop"
-		},
-		{
-			"offsets": [
-				37,
-				69
+			"anim": "deathConfirm-loop",
+			"indices": [
+				28,
+				29,
+				30,
+				31
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "deathConfirm",
-			"indices": [],
-			"name": "BF Dead confirm"
+			"name": "beef LIVES"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND_DEAD",
+	"image": "characters/anonymon_bf",
 	"position": [
 		0,
-		350
+		110
 	],
-	"healthicon": "bf",
+	"healthicon": "BF",
 	"flip_x": true,
 	"healthbar_colors": [
 		49,
@@ -48,8 +64,8 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		-200,
+		-110
 	],
 	"sing_duration": 4,
 	"scale": 1
